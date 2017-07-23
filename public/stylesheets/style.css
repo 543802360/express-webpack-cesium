@@ -11,3 +11,10 @@ body {
     width: 100%;
     height: 100%;
 }
+
+
+/*隐藏Credit*/
+
+.cesium-viewer .cesium-widget-credits {
+    display: none !important;
+}

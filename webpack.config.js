@@ -11,9 +11,8 @@
 
       const config = {
           entry: {
-              index: path.join(app, 'index.js')
-                  //,
-                  //vendor: ['jquery', 'echarts']
+              index: path.join(app, 'index.js'), //main 
+              vendor: ['jquery', 'echarts'] //vendors
           },
           output: {
               path: dist,
@@ -45,11 +44,10 @@
               new webpack.optimize.UglifyJsPlugin(),
               new CopyWebpackPlugin([
                   { from: cesiumSource, to: cesiumDist },
-              ])
-              //   ,
-              //   new webpack.optimize.CommonsChunkPlugin({
-              //       name: 'vendor',
-              //   })
+              ]),
+              new webpack.optimize.CommonsChunkPlugin({
+                  name: 'vendor',
+              })
           ],
           stats: {
               colors: true
