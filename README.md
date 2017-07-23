@@ -15,6 +15,11 @@ npm install
 ```
 npm run build
 ```
+-start
+```
+npm start
+```
+
 enter the http://127.0.0.1:3000 in the browser
 
 ## Issues
