@@ -18,4 +18,4 @@ npm run build
 enter the http://127.0.0.1:3000 in the browser
 
 ## Issues
-when use the Cesium 1.35,I encounter the same issue with this：https://github.com/AnalyticalGraphicsInc/cesium/issues/5417,but Cesium1.31 does not.
+when use the Cesium 1.35,I encounter the same issue with this：https://github.com/AnalyticalGraphicsInc/cesium/issues/5417 ,but Cesium1.31 does not.
