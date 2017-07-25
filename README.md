@@ -15,7 +15,7 @@ npm install
 ```
 npm run build
 ```
--start
+- start
 ```
 npm start
 ```
