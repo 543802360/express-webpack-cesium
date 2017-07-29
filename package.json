@@ -5,7 +5,7 @@
     "scripts": {
         "develop": "webpack-dev-server --env development",
         "build": "webpack --env production --progress --colors",
-        "start": "node ./bin/www",
+        "start": "nodemon ./bin/www",
         "release": "webpack -p --progress --colors --display-error-details"
     },
     "dependencies": {
